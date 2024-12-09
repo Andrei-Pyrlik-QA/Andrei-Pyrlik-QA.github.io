@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fbe9d0;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Заголовок страницы */
+.header {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__avatar {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.header__textContainer {
+    margin-left: 20px;
+}
+
+.header__title {
+    margin: 0;
+    font-size: 28px;
+}
+
+.header__subtitle {
+    margin: 0;
+    font-size: 18px;
+}
+
+/* Секции с ссылками */
+.links {
+    max-width: 600px;
+    margin: 6px auto;
+    padding: 18px;
+    background-color: #fddbaa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.links__header {
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.links__container {
+    list-style-type: none;
+    padding: 0;
+}
+
+.links__link {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.links__title {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.links__link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.links__link a:hover {
+    text-decoration: underline;
+}
+
+/* Кнопка в футере */
+.button-link {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.button-link:hover {
+    background-color: #0056b3;
+}
+
+/* Футер */
+footer {
+    text-align: center;
+    padding: 20px;
+}
